@@ -1,0 +1,15 @@
+
+<suite name="Suite" parallel="tests" >
+  <test name="Test1">
+     <parameter name="browser"  value="chrome"/>
+     <classes>
+      1-1000
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browser"  value="firefox"/>
+     <classes>
+      1-1000
+    </classes>
+  </test> 
+</suite> 
